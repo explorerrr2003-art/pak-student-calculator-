@@ -1,21 +1,31 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Pak Student Calculator 🎓🇵🇰
 
-# Run and deploy your AI Studio app
+A visually stunning, modern, and lightweight Android application built with **Jetpack Compose** and **Material Design 3**. Designed specifically to help students in Pakistan quickly calculate, track, and predict their academic milestones.
 
-This contains everything you need to run your app locally.
+## ✨ Features
 
-View your app in AI Studio: https://ai.studio/apps/42dbbb80-33de-443b-898e-aef726b87e98
+- 📝 **Matric & FSc Calculator**: Enter obtained vs. total marks to instantly compute your percentages.
+- 📐 **Cumulative CGPA Engine**: Add/remove semesters dynamically to calculate your total GPA on the standard 4.0 HEC scale.
+- 🏛️ **Admission Merit Simulator**: Input Matric, FSc, and Entrance Test scores (ECAT, MDCAT, NET, NAT) to calculate aggregate merits for top Pakistani universities (NUST, FAST, COMSATS, GIKI, and more).
+- 🎨 **Material 3 Interface**: Fluent animations, elegant typography pairing, adaptive layouts, and total supporting light/dark theme aesthetics.
+- 🔒 **Secure-First Architecture**: Strictly adheres to safe API practices and clean Kotlin MVVM separation.
 
-## Run Locally
+## 🚀 Tech Stack
 
-**Prerequisites:**  [Android Studio](https://developer.android.com/studio)
+- **UI Framework**: Jetpack Compose (Kotlin declarative UI)
+- **Design Guidelines**: Material Design 3 (M3)
+- **Local Unit Testing**: Robolectric & JUnit 4
+- **Visual Verification**: Roborazzi Screenshot Testing
+- **Compiler/Build**: Gradle (Kotlin DSL) with version catalog indexing
 
+## 🛠️ Getting Started
 
-1. Open Android Studio
-2. Select **Open** and choose the directory containing this project
-3. Allow Android Studio to fix any incompatibilities as it imports the project.
-4. Create a file named `.env` in the project directory and set `GEMINI_API_KEY` in that file to your Gemini API key (see `.env.example` for an example)
-5. Remove this line from the app's `build.gradle.kts` file: `signingConfig = signingConfigs.getByName("debugConfig")`
-6. Run the app on an emulator or physical device
+### Prerequisites
+- Android Studio Jellyfish or newer
+- JDK 17+
+
+### Setup
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/pak-student-calculator.git
+   cd pak-student-calculator
