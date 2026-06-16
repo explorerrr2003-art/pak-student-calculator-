@@ -1,0 +1,6 @@
+{
+  "name": "Pak Student Calculator",
+  "description": "A high-fidelity CGPA, Matric, FSc, and university merit calculator specifically configured for Pakistani students. Supports multiple boards and university parameters with offline calculations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

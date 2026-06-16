@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Gradient Shadow/Backing for depth -->
+    <path
+        android:pathData="M30 30h48v48H30z"
+        android:fillColor="#151E3D4D" />
+
+    <!-- Solid Rounded Calculator Card Base -->
+    <path
+        android:pathData="M 32 32 A 6 6 0 0 1 76 32 L 76 76 A 6 6 0 0 1 32 76 Z"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Display Screen of the Calculator -->
+    <path
+        android:pathData="M 38 38 L 70 38 L 70 48 L 38 48 Z"
+        android:fillColor="#004D40" />
+
+    <!-- Display Screen Value placeholder (88.5 represented elegantly) -->
+    <path
+        android:pathData="M 42 41 L 46 41 L 46 45 L 42 45 Z"
+        android:fillColor="#4DB6AC" />
+    <path
+        android:pathData="M 50 41 L 54 41 L 54 45 L 50 45 Z"
+        android:fillColor="#4DB6AC" />
+    <path
+        android:pathData="M 58 41 L 62 41 L 62 45 L 58 45 Z"
+        android:fillColor="#4DB6AC" />
+
+    <!-- Calculator Button Grids -->
+    <!-- Row 1 -->
+    <path android:pathData="M 38 52 h 8 v 5 h -8 z" android:fillColor="#1565C0" />
+    <path android:pathData="M 50 52 h 8 v 5 h -8 z" android:fillColor="#1565C0" />
+    <path android:pathData="M 62 52 h 8 v 5 h -8 z" android:fillColor="#D32F2F" />
+
+    <!-- Row 2 -->
+    <path android:pathData="M 38 60 h 8 v 5 h -8 z" android:fillColor="#1565C0" />
+    <path android:pathData="M 50 60 h 8 v 5 h -8 z" android:fillColor="#1565C0" />
+    <path android:pathData="M 62 60 h 8 v 5 h -8 z" android:fillColor="#388E3C" />
+
+    <!-- Row 3 -->
+    <path android:pathData="M 38 68 h 8 v 5 h -8 z" android:fillColor="#1565C0" />
+    <path android:pathData="M 50 68 h 8 v 5 h -8 z" android:fillColor="#1565C0" />
+    <path android:pathData="M 62 68 h 8 v 5 h -8 z" android:fillColor="#00897B" />
+
+    <!-- Overlaying Graduation Cap sitting on top of the Calculator for standard student identity -->
+    <!-- Main Peak Cap Diamond -->
+    <path
+        android:pathData="M 54 18 L 86 30 L 54 42 L 22 30 Z"
+        android:fillColor="#0D1B2A" />
+
+    <!-- Cap Base (Neck) -->
+    <path
+        android:pathData="M 36 33.5 L 36 44 C 36 49 72 49 72 44 L 72 33.5"
+        android:fillColor="#1E293B" />
+
+    <!-- Cap Tassel dangling -->
+    <path
+        android:pathData="M 80 30 L 84 38 L 84 46"
+        android:strokeColor="#FFD700"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round" />
+
+</vector>
